@@ -12,6 +12,7 @@ spec:
     helm:
       valueFiles:
       - values-staging.yaml
-    path: .
+    path: configuration-managers
+    repoURL: https://github.com/rhpijnacker/udacity
     targetRevision: HEAD
   syncPolicy: {}

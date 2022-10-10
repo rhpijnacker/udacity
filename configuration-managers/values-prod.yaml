@@ -15,5 +15,5 @@ resources:
 service:
   port: 80
 
-configMap:
+configmap:
   data: "version: 1.17.0"

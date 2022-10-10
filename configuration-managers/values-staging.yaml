@@ -12,5 +12,5 @@ resources:
     cpu: 50m
     memory: 128Mi
 
-configMap:
+configmap:
   data: "version: 1.18.0"
